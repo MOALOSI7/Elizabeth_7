@@ -1,0 +1,246 @@
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#picH{
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #003366;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    background-color: #0052cc;
+    border-radius: 5px;
+}
+
+.home-section, .destinations-section, .footer {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.home-section {
+    color: black;
+    background-color: gray;
+}
+
+#home{
+    background-image: url('images/beach.jpg');
+    background-size: cover;
+
+}
+
+.destinations-section {
+    background-color: #e6f7ff;
+}
+
+.card-container {
+    margin-top: 150pxpx;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 130px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.country:hover {
+    transform: translateY(-30px);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #003366;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.country-container {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.country {
+    margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    margin-bottom: 100px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+.country-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+video {
+    width: 100%;
+    border-radius: 8px;
+    height: 200px;
+}
+.destinations-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.destinations-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Grid Layout for Destinations */
+.destination-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* Destination Card Styling */
+.destination-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.destination-card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.destination-card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.destination-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #f4a261;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.destination-card a:hover {
+    color: #e76f51;
+}
